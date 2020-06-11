@@ -80,6 +80,7 @@ public class UserJsonTest {
 		.then()
 			.statusCode(404)
 			.body("error", is("Usuário inexistente"))
+			//Teste
 		;	
 	}
 }
